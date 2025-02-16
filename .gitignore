@@ -1,0 +1,74 @@
+# Python 관련
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+*.pyd
+*.swp
+*.swo
+
+# Jupyter Notebook 체크포인트
+.ipynb_checkpoints/
+
+# 가상 환경 (venv, virtualenv, conda)
+venv/
+.env/
+.venv/
+env/
+*.env
+*.venv
+*.conda
+*.virtualenv
+
+# macOS 관련
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS에서 Finder가 생성하는 파일
+*.localized
+Thumbs.db
+
+# Conda 환경
+*.log
+conda-meta/
+conda_env.yaml
+
+# PyTorch, TensorFlow 등의 체크포인트
+*.ckpt
+*.h5
+*.tflite
+*.onnx
+*.mlmodel
+*.pth
+*.pt
+
+# 캐시 파일
+*.cache
+*.mypy_cache/
+.pytest_cache/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Git 관리에 필요 없는 설정 파일
+.idea/
+.vscode/
+*.iml
+
+# Jupyter 환경 변수
+.ipython/
+.jupyter/
+
+# Metal Performance Shaders (MPS) 및 GPU 관련 로그 (PyTorch)
+mps.log
+gpu.log
+
+# Colab 관련 파일
+colab_scratch/
+colab_checkpoints/
+
+# 환경 변수 설정 파일 (보안 관련)
+.env
+.secret
+config.json
+config.yaml
